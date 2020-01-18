@@ -16,3 +16,5 @@ As such, PhosPay acts as a smart contract, in the sense that it expresses the in
 Conventional open source projects labelled as "smart contract" either:
 - do not have a realistic short term goal (e.g. within 3 months), or 
 - too few people understand the theories and proposals for implementations.
+
+As such, our project should satisfy both criteria above to be credible.
