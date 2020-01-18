@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Software_token
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
 
-Scenario I involves an international conventional payment method (Western Union) without cryptocurrency so that users can confirm that Datong Token can be used without cryptocurrency.
+Scenario I involves an international conventional payment method (Western Union) without cryptocurrency so that users can confirm that PhosPay Token can be used without cryptocurrency.
 
 Consider a scenario where Sender A who lives in country P wishes to send an amount X in currency K to Recipient B who lives in country Q.
 
