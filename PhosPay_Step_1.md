@@ -21,7 +21,7 @@ Brenda then copies her public key (PBKB, B=Brenda) to her Facebook page, or any 
 
 <img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/Brenda_FB.png" width=300>
 
-3. Adam then creates a message in JSON, expressing his intention to pay Brenda USD 1:
+3. Adam then creates a message `MA` in JSON, expressing his intention to pay Brenda USD 1:
 
 ```JavaScript
 Object { 
@@ -34,6 +34,17 @@ time: "2020-01-19T07:34:34.084Z" }
 
 His message includes his own public key (PBKA, A=Adam), and additional flags.
 
+The following commands are executed in Adam's PhosPay web client console:
+
+```JavaScript
+// push Brenda's public key PBKB on to stack
+S.push("-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJ+hnkgPA59lIBsuFr3LT/de09/Y8MEc\nCKjsPF2fgLo3Bi5PlCTttvUeprhNj2Lx9Yublc6yR6GidPUWfbA+TkUCAwEAAQ==\n-----END PUBLIC KEY-----")
+F("imkey:") // import PBKB to node-rsa
+S.push(MA)  // push MA on to stack
+F("je: ecr:")  // json encode MA; encrypt it;
+S
+```
+
 <img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_d_imkey.png" width=700>
 
 <img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_d_ecr.png" width=700>
@@ -45,7 +56,12 @@ https://github.com/udexon/PhosPay/blob/master/rsa002.txt
 
 Adam then generates a short URL for the above and paste it as a social media comment on Brenda's social media's account.
 
-4. Brenda retrieves the encrypted message and descrypts it with her own private key (PVKB).
+4. Brenda retrieves the encrypted message and descrypts it with her own private key (PVKB):
+
+```JavaScript
+F("dcr:")
+S
+```
 
 <img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_e_CA2.png" width=700>
 
