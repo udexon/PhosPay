@@ -72,4 +72,4 @@ S
 
 Further steps are described in [PhosPay Online Tipping](https://github.com/udexon/PhosPay/blob/master/PhosPay_Scenarios.md) involving Agent C and Agent D in different countries, where the transactions will be managed using PhosPay Websocket Transaction Management System.
 
-Jump to: [PhosPay Websocket Transaction Management System](https://github.com/udexon/PhosPay/blob/master/PhosPay_WS_TMS.md)
+Jump to: [PhosPay Websocket Messaging & Transaction Management System](https://github.com/udexon/PhosPay/blob/master/PhosPay_WS_MTMS.md)
