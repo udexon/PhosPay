@@ -17,7 +17,27 @@ F("exkey:")   // export key: Phos stack machine returns Brenda's public key, pus
 S             // show stack i.e. Brenda's public key
 ```
 
-Brenda then copies her public key (PBKB) to her Facebook page, or any other social media page. She may renew her public key from time to time. A public key needs to be used only for one transaction. This is one of the most crucial innovation in PhosPay.
+Brenda then copies her public key (PBKB, B=Brenda) to her Facebook page, or any other social media page. She may renew her public key from time to time. A public key needs to be used only for one transaction. This is one of the most crucial innovation in PhosPay.
 
 <img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/Brenda_FB.png" width=300>
 
+3. Adam then creates a message in JSON, expressing his intention to pay Brenda USD 1:
+
+```JavaScript
+Object { 
+PBK: "-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAI+8tIdw4aGhmrEl9yx6pNZ4gsMzAyzq\nQ/OFd75LdWLLxEmiCzEvrRVwokH1UtGBCb53USKFDo8l8aKRjexBX90CAwEAAQ==\n-----END PUBLIC KEY-----", 
+ID: "Adam", 
+guid: "C58A1FC5-3DD1-4BCD-A21E-DFA774A0DEAB", 
+msg: "I shall pay you USD 1.", 
+time: "2020-01-19T07:34:34.084Z" }
+```
+
+His message includes his own public key (PBKA, A=Adam), and additional flags.
+
+This JSON message is encrypted using Brenda's public key (PBKB) and stored at a website accessible by Brenda:
+
+https://github.com/udexon/PhosPay/blob/master/rsa002.txt
+
+Adam then generate a short URL for the above and paste it as a social media comment on Brenda's social media's account.
+
+4. Brenda retrieves the encrypted message and descrypts it with her own private key (PVKB).
