@@ -34,6 +34,11 @@ time: "2020-01-19T07:34:34.084Z" }
 
 His message includes his own public key (PBKA, A=Adam), and additional flags.
 
+<img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_d_imkey.png" width=700>
+
+<img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_d_ecr.png" width=700>
+
+
 This JSON message is encrypted using Brenda's public key (PBKB) and stored at a website accessible by Brenda:
 
 https://github.com/udexon/PhosPay/blob/master/rsa002.txt
@@ -41,3 +46,9 @@ https://github.com/udexon/PhosPay/blob/master/rsa002.txt
 Adam then generates a short URL for the above and paste it as a social media comment on Brenda's social media's account.
 
 4. Brenda retrieves the encrypted message and descrypts it with her own private key (PVKB).
+
+<img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_e_CA2.png" width=700>
+
+<img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_f_dcr.png" width=700>
+
+
