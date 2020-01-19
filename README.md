@@ -17,6 +17,10 @@ As such, PhosPay acts as a smart contract, in the sense that it expresses the in
 
 The most important unique selling point of PhosWallet is the potentially ___very large amount of tips given to popular social media influencers___. This will drive prospective candidates to become PhosPay Agents (PhosAgents), who are critical to make PhosPay work, and will earn significant commisions from PhosPay transactions. The ease of becoming a PhosAgent and the large number of PhosAgents will in turn make the costs of transactions of PhosPay cheap and make PhosPay reliable. 
 
+- For example, __100 influencers__ receiving __USD 100 tips daily__ would be equivalent to __USD 10,000 daily__. At 1% commission fees, that is USD 100 per day &ndash; passive income!!
+- __USD 10k daily transaction__ could be achieved __within 1 month after launch of PhosPay__.
+- A conservative linear growth estimation could put __PhosPay DAILY transaction at USD 100k, or USD 3 million per month, at the end of one year after launch of PhosPay.__
+
 By acting as PhosAgent, Cryptocurrency owners can utilize cryptocurrencies that they own, earning additional income. As such, PhosPay will become a new unique selling point to attract more people to use cryptocurrencies.
 
 
