@@ -38,6 +38,6 @@ This JSON message is encrypted using Brenda's public key (PBKB) and stored at a 
 
 https://github.com/udexon/PhosPay/blob/master/rsa002.txt
 
-Adam then generate a short URL for the above and paste it as a social media comment on Brenda's social media's account.
+Adam then generates a short URL for the above and paste it as a social media comment on Brenda's social media's account.
 
 4. Brenda retrieves the encrypted message and descrypts it with her own private key (PVKB).
