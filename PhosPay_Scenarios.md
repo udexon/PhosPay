@@ -17,13 +17,14 @@ Step 1: Verifying payment chain (identifying Agents)
 <img src="https://github.com/udexon/DatongToken/blob/master/payment_chain.png" width="400"  />
 
 <ol type="a">
-  <li> Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's PhosPay Token, together with the tipping amount, as well as other details. B then opens the short link using PhosPay app and begins a chat session with A. Sender A then requests Recipient B's public key. </li>
-  <li> Recipient B sends own public key PBKB to sender A. </li>
+  <li> Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's PhosPay Token, together with the tipping amount, as well as other details. </li>
+  
+  <li> Sender A retrieves Recipient B's public key PBKB from B's social media profile or posts. </li>
 
   <li> Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
   <li> Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.</li>
-  <li> Sender A sends CA2 to Recipient B. </li>
-  <li> Recipient B decrypts CA2 using own private key PVKB. </li>
+  <li> Sender A leaves CA2 on a website accessible by B and post the short URL on Recipient B's social media. </li>
+  <li> Recipient B then opens the short link using PhosPay app decrypts CA2 using own private key PVKB. B begins a chat session with A. </li>
 
 <li> Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B. </li>
 
@@ -31,6 +32,8 @@ Step 1: Verifying payment chain (identifying Agents)
 
 <li> Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B. </li>
 </ol>
+
+Jump to: [ A more detailed implementations of steps (a) to (f) ](https://github.com/udexon/PhosPay/blob/master/PhosPay_Step_1.md).
 
 Step 2: Carry out payment transactions
 
