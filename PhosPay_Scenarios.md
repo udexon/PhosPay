@@ -35,7 +35,7 @@ Step 1: Verifying payment chain (identifying Agents)
 
 Jump to: 
 - [ A more detailed implementations of steps (a) to (f) ](https://github.com/udexon/PhosPay/blob/master/PhosPay_Step_1.md)
-- An ID-less Websocket Messaging and Transaction Management System \[ steps (g) to (i) \]
+- [ An ID-less Websocket Messaging and Transaction Management System \[ steps (g) to (i) \] ](https://github.com/udexon/PhosPay/blob/master/PhosPay_WS_TMS.md)
 
 Step 2: Carry out payment transactions
 
