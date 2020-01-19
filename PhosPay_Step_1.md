@@ -16,3 +16,8 @@ She then enters the following commands in the browser console:
 F("exkey:")   // export key: Phos stack machine returns Brenda's public key, pushed on to stack
 S             // show stack i.e. Brenda's public key
 ```
+
+Brenda then copies her public key (PBKB) to her Facebook page, or any other social media page. She may renew her public key from time to time. A public key needs to be used only for one transaction. This is one of the most crucial innovation in PhosPay.
+
+<img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/Brenda_FB.png" width=300>
+
