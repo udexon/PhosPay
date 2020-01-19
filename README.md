@@ -27,3 +27,5 @@ As such, our project should satisfy both criteria above to be credible.
 The breakthrough in PhosPay is a result of:
 - eliminating the conventional Unix style user ID, and 
 - applying asymetric cryptography in completely novel ways.
+
+Due to its simplicity and transparency in usage and implementations, PhosPay shall become the reference implementation for smart contract and raise the bar for the industry, just like GCC does for compilers.
