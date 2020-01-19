@@ -24,4 +24,6 @@ Conventional open source projects labelled as "smart contract" either:
 
 As such, our project should satisfy both criteria above to be credible.
 
-The breakthrough in PhosPay is a result of eliminating the conventional Unix style user ID and applying asymetric cryptography in completely novel ways.
+The breakthrough in PhosPay is a result of:
+- eliminating the conventional Unix style user ID, and 
+- applying asymetric cryptography in completely novel ways.
