@@ -1,4 +1,4 @@
-### PhosPay Online Tipping -- Outside China -- 大同支外宝
+### PhosPay Online Tipping &ndash; Outside China &ndash; 大同支外宝
 
 Online tipping is one of the most lucrative captive markets nowadays. China and users of Chinese apps are ahead of the rest of the world in this area with their online payment systems which enables tipping down to a single cent. Just like HTML and Linux, something small and simple can replicate worldwide and become revolutionary.
 
@@ -33,7 +33,9 @@ Step 1: Verifying payment chain (identifying Agents)
 <li> Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B. </li>
 </ol>
 
-Jump to: [ A more detailed implementations of steps (a) to (f) ](https://github.com/udexon/PhosPay/blob/master/PhosPay_Step_1.md).
+Jump to: 
+- [ A more detailed implementations of steps (a) to (f) ](https://github.com/udexon/PhosPay/blob/master/PhosPay_Step_1.md)
+- An ID-less Websocket Messaging and Transaction Management System \[ steps (g) to (i) \]
 
 Step 2: Carry out payment transactions
 
