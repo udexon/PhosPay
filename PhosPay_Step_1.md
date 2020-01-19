@@ -68,3 +68,8 @@ S
 <img src="https://github.com/udexon/PhosPay/blob/master/PhosPay_Demo/step_f_dcr.png" width=700>
 
 
+5. As we can see, the above constitute only the first step of PhosPay transaction.
+
+Further steps are described in [PhosPay Online Tipping](https://github.com/udexon/PhosPay/blob/master/PhosPay_Scenarios.md) involving Agent C and Agent D in different countries, where the transactions will be managed using PhosPay Websocket Transaction Management System.
+
+Jump to: [PhosPay Websocket Transaction Management System](https://github.com/udexon/PhosPay/blob/master/PhosPay_WS_TMS.md)
