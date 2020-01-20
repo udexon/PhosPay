@@ -19,3 +19,8 @@ Consider:
 - Scenario X-I (X="no PhosPay"): the human network comprising Payor, Payee and Agents, facilitated by conventional electronic and physical means (e.g. telephone conversations, paper contracts, verbal contracts etc.) to coordinate the various stages of transactions, to perform online tipping of USD 1.
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
+
+More specifically, Agent C (Christ) and Agent D (Donald) are individuals not affiliated with Western Union.
+
+We intentionally use this unrealistic example to make readers aware of various issues, such as the Western Union comission fees, which exceed the tip USD 1 itself.
+
