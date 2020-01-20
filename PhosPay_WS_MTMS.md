@@ -41,3 +41,8 @@ Suppose Payor A (Adam), Payee B (Brenda) and Agents Christ and Donald use a mixt
 6. Donald then obtains the money Western Union branch in country Q, then transfers the money to Brenda's bank account, using national inter-bank transfer service.
 
 PhosPay Websocket Messaging & Transaction Management System (Phos-MTMS) will employ websocket and asymmetric cryptography, plus other function libraries, to replace the utilities and tools used in steps 1 through 6 above.
+
+
+#### PhosPay Implementation and Development
+
+In [ title? ](https://github.com/udexon/PhosPay/blob/master/PhosPay_Step_1.md), we described in details the initial step of ...
