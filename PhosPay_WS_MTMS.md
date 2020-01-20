@@ -15,3 +15,10 @@ Our rebuttal is that smart contract is still an ill defined concept with poor im
 
 Consider:
 - the human network comprising Payor, Payee and Agents, facilitated by conventional electronic and physical means (e.g. telephone conversations, paper contracts, verbal contracts etc.) to coordinate the various stages of transactions, to perform online tipping of USD 1.
+
+https://github.com/udexon/PhosPay/blob/master/PhosPay_Scenarios.md#scenario-i-phospay-with-western-union
+
+https://github.com/udexon/DatongToken/blob/master/pay_wu.png
+
+
+<img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
