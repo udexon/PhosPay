@@ -22,5 +22,10 @@ Consider:
 
 More specifically, Agent C (Christ) and Agent D (Donald) are individuals not affiliated with Western Union.
 
-We intentionally use this unrealistic example to make readers aware of various issues, such as the Western Union comission fees, which exceed the tip USD 1 itself.
+We intentionally use this unrealistic example to make readers aware of various issues, such as the Western Union commission fees, which exceed the tip USD 1 itself.
 
+Suppose we increase the tip to USD 20 to make it realistic, in comparison to the commission fees.
+
+Suppose Payor A (Adam), Payee B (Brenda) and Agents Christ and Donald use a mixture of online chat and voice conversations to facilitate the transactions. The following will be the steps required:
+
+1. 
