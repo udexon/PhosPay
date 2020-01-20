@@ -49,4 +49,4 @@ In article [ "Step 1: Verifying Payment Chain: Identifying Agents" ](https://git
 
 The steps 1 through 6 outlined above can also be implemented in the web based solution or as Android app, so that eventually we will can deploy PhosPay anonymously using a mobile only solution, as a demonstration of Phos Cloudless Computing Platform.
 
-A significant feature of our development effort is the use of Phos stack machine shell (Shellet) which aims to simplify programming, so that even novice programmers can contribute to our development work, learning programming alongside with our "one word at a time" learning approach.
+A significant feature of our development effort is the use of Phos stack machine shell (Shellet), a Forth like programming environment, which aims to simplify programming, so that even novice programmers can contribute to our development work, learning programming alongside with our "one word at a time" learning approach.
